@@ -96,6 +96,7 @@
   button.setOnAction(e -> isNumber(nameInput, nameInput.getText()));//同时获取input因为可以有跟多操作
   ```
 ### Check Box & Choice Box (drop down menu)
+![image](https://media.github.sydney.edu.au/user/3246/files/51f33080-fc31-11e9-9ad6-5fa5860947fb)
   - Check Box, can be ticked, has boolean value of is selected
   ```java
   CheckBox box1 = new CheckBox("Bacon");
@@ -117,6 +118,7 @@
   choiceBox.getSelectionModel().selectedItemProperty().addListener( (v, oldValue, newValue) -> System.out.println(newValue));
   ```
 ### ComboBox: 比checkbox牛逼一点
+![image](https://media.github.sydney.edu.au/user/3246/files/34be6200-fc31-11e9-845b-d11c85445990)
   - Basiclly same as checkbox except that:
   ```java
   //不用加listener！！！！
@@ -204,3 +206,5 @@
   table.setItems(getProduct());
   table.getColumns().addAll(nameColumn, priceColumn, quantityColumn);
   ```
+#### Editable Table
+![image](https://media.github.sydney.edu.au/user/3246/files/a3e48800-fc2a-11e9-873e-2c4c4d0c2946)
