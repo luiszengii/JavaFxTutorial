@@ -181,3 +181,8 @@
         return item;
     }
   ```
+### Table View
+![image](https://media.github.sydney.edu.au/user/3246/files/6c291080-fc29-11e9-9896-625fbe6afd67)
+  - TableView<Product> table;
+  ```java
+  
