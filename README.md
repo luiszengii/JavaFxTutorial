@@ -183,6 +183,23 @@
   ```
 ### Table View
 ![image](https://media.github.sydney.edu.au/user/3246/files/6c291080-fc29-11e9-9896-625fbe6afd67)
-  - TableView<Product> table;
   ```java
-  
+  //Name column
+  TableColumn<Product, String> nameColumn = new TableColumn<>("Name");
+  nameColumn.setMinWidth(200);
+  nameColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
+
+  //Price column
+  TableColumn<Product, Double> priceColumn = new TableColumn<>("Price");
+  priceColumn.setMinWidth(100);
+  priceColumn.setCellValueFactory(new PropertyValueFactory<>("price"));
+
+  //Quantity column
+  TableColumn<Product, String> quantityColumn = new TableColumn<>("Quantity");
+  quantityColumn.setMinWidth(100);
+  quantityColumn.setCellValueFactory(new PropertyValueFactory<>("quantity"));
+
+  table = new TableView<>();
+  table.setItems(getProduct());
+  table.getColumns().addAll(nameColumn, priceColumn, quantityColumn);
+  ```
