@@ -183,6 +183,7 @@
   ```
 ### Table View
 ![image](https://media.github.sydney.edu.au/user/3246/files/6c291080-fc29-11e9-9896-625fbe6afd67)
+- PropertyValueFactory<>("name")里的“name”**必须**与Product.java里的property名字"name"一致
   ```java
   //Name column
   TableColumn<Product, String> nameColumn = new TableColumn<>("Name");
