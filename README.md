@@ -208,3 +208,4 @@
   ```
 #### Editable Table
 ![image](https://media.github.sydney.edu.au/user/3246/files/a3e48800-fc2a-11e9-873e-2c4c4d0c2946)
+![image](https://media.github.sydney.edu.au/user/3246/files/9813e400-fe2b-11e9-831f-8c957bdd6646)
